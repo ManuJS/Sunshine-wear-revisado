@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Watchface</string>
+    <string name="message">Watch face tapped</string>
+    <string name="my_digital_name">Sunshine A</string>
+    <string name="unknown_weather">"Unknown Weather: "</string>
+    <string name="min_temp_key">min_temp</string>
+    <string name="max_temp_key">max_temp</string>
+    <string name="weather_id_key">weather_id</string>
+    <string name="default_max_temp">Max</string>
+    <string name="default_min_temp">Min</string>
+</resources>

@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/emanuellemenali/Desktop/projetos_udacity/S12.04-Solution-ResourceQualifiers2/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
+        <dex dex="/Users/emanuellemenali/Desktop/projetos_udacity/S12.04-Solution-ResourceQualifiers2/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.1.0_c75fa14dd69bae619e9f94e2395742d4463a8521.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/emanuellemenali/Desktop/projetos_udacity/S12.04-Solution-ResourceQualifiers2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="/Users/emanuellemenali/Desktop/projetos_udacity/S12.04-Solution-ResourceQualifiers2/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-8.4.0_4b1d196355c33d155429e8fa534457f4a4df21d7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/emanuellemenali/.gradle/caches/modules-2/files-2.1/com.android.databinding/baseLibrary/2.2.3/b4b51d1925cdfda98fd861230c1ecb5855500129/baseLibrary-2.2.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b4b51d1925cdfda98fd861230c1ecb5855500129">
+        <dex dex="/Users/emanuellemenali/Desktop/projetos_udacity/S12.04-Solution-ResourceQualifiers2/app/build/intermediates/pre-dexed/debug/baseLibrary-2.2.3_da3a71e1e82c8745a4c446442ee42f904638e6a9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/emanuellemenali/Desktop/projetos_udacity/S12.04-Solution-ResourceQualifiers2/app/build/intermediates/exploded-aar/com.android.databinding/library/1.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="957dc30b1495f8689271e00d56ab09cc9192df02">
+        <dex dex="/Users/emanuellemenali/Desktop/projetos_udacity/S12.04-Solution-ResourceQualifiers2/app/build/intermediates/pre-dexed/debug/com.android.databinding-library-1.2.1_ed329b5cf43127297c1cb53e01aaf5018c886929.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/emanuellemenali/Desktop/projetos_udacity/S12.04-Solution-ResourceQualifiers2/wear/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c6d79137693d494dee16372d3921f919eb724ced">
+        <dex dex="/Users/emanuellemenali/Desktop/projetos_udacity/S12.04-Solution-ResourceQualifiers2/wear/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-22.0.0_7c3714bbcebc6d7564ae971b336e9f14baa3716c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/emanuellemenali/Desktop/projetos_udacity/S12.04-Solution-ResourceQualifiers2/app/build/intermediates/exploded-aar/com.android.support/preference-v7/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="378c0fefdd7adedd0ea74d7607b3d4a251b29d78">
+        <dex dex="/Users/emanuellemenali/Desktop/projetos_udacity/S12.04-Solution-ResourceQualifiers2/app/build/intermediates/pre-dexed/debug/com.android.support-preference-v7-25.1.0_d902e4eda9bcc264d122e6c2a1d0424bbcc892b1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/emanuellemenali/Desktop/projetos_udacity/S12.04-Solution-ResourceQualifiers2/app/build/intermediates/exploded-aar/com.android.databinding/adapters/1.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c56d29136c2257f63f08c29c4e739efb03b06c7d">
+        <dex dex="/Users/emanuellemenali/Desktop/projetos_udacity/S12.04-Solution-ResourceQualifiers2/app/build/intermediates/pre-dexed/debug/com.android.databinding-adapters-1.2.1_616fc69c95cbef6818c2efec4452dc30c9a512ab.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/emanuellemenali/Desktop/projetos_udacity/S12.04-Solution-ResourceQualifiers2/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
+        <dex dex="/Users/emanuellemenali/Desktop/projetos_udacity/S12.04-Solution-ResourceQualifiers2/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.1.0_11543d7152801b10ca95807f030a98ce2018b4c2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/emanuellemenali/Desktop/projetos_udacity/S12.04-Solution-ResourceQualifiers2/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="/Users/emanuellemenali/Desktop/projetos_udacity/S12.04-Solution-ResourceQualifiers2/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.1.0_8754f6cdd61742e6e1c2101064602c26a8b88068.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/emanuellemenali/Desktop/projetos_udacity/S12.04-Solution-ResourceQualifiers2/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b266c8faa5af72e579b9da36ef35053ffed6ac64">
+        <dex dex="/Users/emanuellemenali/Desktop/projetos_udacity/S12.04-Solution-ResourceQualifiers2/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-25.1.0_9a2c1e44223239e9dd45ed0c8c52b422af04abe3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/emanuellemenali/Desktop/projetos_udacity/S12.04-Solution-ResourceQualifiers2/wear/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/jars/libs/internal_impl-23.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
+        <dex dex="/Users/emanuellemenali/Desktop/projetos_udacity/S12.04-Solution-ResourceQualifiers2/wear/build/intermediates/pre-dexed/debug/internal_impl-23.0.0_022044b887cfe0e3b8e8ecb80ce0577e3aec9f87.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/emanuellemenali/Desktop/projetos_udacity/S12.04-Solution-ResourceQualifiers2/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
+        <dex dex="/Users/emanuellemenali/Desktop/projetos_udacity/S12.04-Solution-ResourceQualifiers2/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.1.0_aa224df6837a089825ef16a0e0642261ae7d649b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/emanuellemenali/Desktop/projetos_udacity/S12.04-Solution-ResourceQualifiers2/wear/build/intermediates/exploded-aar/com.google.android.support/wearable/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="58b928ccbaf9090c632f278d6bd31e1ae42f2457">
+        <dex dex="/Users/emanuellemenali/Desktop/projetos_udacity/S12.04-Solution-ResourceQualifiers2/wear/build/intermediates/pre-dexed/debug/com.google.android.support-wearable-1.3.0_d64784dd62572be11de6d998044e3e358fc0ee7a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/emanuellemenali/Desktop/projetos_udacity/S12.04-Solution-ResourceQualifiers2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e167a34eaca0b31704212f43f9576ea84e05046f">
+        <dex dex="/Users/emanuellemenali/Desktop/projetos_udacity/S12.04-Solution-ResourceQualifiers2/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-wearable-8.4.0_c30ce3e6023ea3418890620593ece9a751a9c626.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/emanuellemenali/Desktop/projetos_udacity/S12.04-Solution-ResourceQualifiers2/wear/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
+        <dex dex="/Users/emanuellemenali/Desktop/projetos_udacity/S12.04-Solution-ResourceQualifiers2/wear/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.0.0_9f2c1150a980250e5f7018276b8a8000b3e00399.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/emanuellemenali/Desktop/projetos_udacity/S12.04-Solution-ResourceQualifiers2/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="/Users/emanuellemenali/Desktop/projetos_udacity/S12.04-Solution-ResourceQualifiers2/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.1.0_8b033c34bb269dc7007f5366a91f9406d7dd0049.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/emanuellemenali/Desktop/projetos_udacity/S12.04-Solution-ResourceQualifiers2/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="/Users/emanuellemenali/Desktop/projetos_udacity/S12.04-Solution-ResourceQualifiers2/wear/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-8.4.0_26bd94f9d7bd49e497a2c4e6d7d20570747a8600.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/emanuellemenali/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.0/support-annotations-23.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="990e7f98a7bad86a40b1f0bcfeb039023afd0839">
+        <dex dex="/Users/emanuellemenali/Desktop/projetos_udacity/S12.04-Solution-ResourceQualifiers2/wear/build/intermediates/pre-dexed/debug/support-annotations-23.0.0_1c0d12b953593756eaa20749488c8f6602ff7dd7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/emanuellemenali/Desktop/projetos_udacity/S12.04-Solution-ResourceQualifiers2/app/build/intermediates/exploded-aar/com.android.support.constraint/constraint-layout/1.0.0-beta3/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b81d40d208a3308c8e81b2cccd3054238a13d140">
+        <dex dex="/Users/emanuellemenali/Desktop/projetos_udacity/S12.04-Solution-ResourceQualifiers2/app/build/intermediates/pre-dexed/debug/com.android.support.constraint-constraint-layout-1.0.0-beta3_114310601770a6acedcdbf850fc4b9af42e01205.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/emanuellemenali/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.0-beta3/constraint-layout-solver-1.0.0-beta3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="22c1e9d26251df254de7cc9dee01f5f134b10eba">
+        <dex dex="/Users/emanuellemenali/Desktop/projetos_udacity/S12.04-Solution-ResourceQualifiers2/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.0-beta3_7d21cd74bca96b91cdcb2fcb2dcbdf80f86d1996.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/emanuellemenali/Desktop/projetos_udacity/S12.04-Solution-ResourceQualifiers2/app/build/intermediates/exploded-aar/com.firebase/firebase-jobdispatcher/0.5.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a7d1d5f89815c94a839ffd4de5f083f5e166d9a5">
+        <dex dex="/Users/emanuellemenali/Desktop/projetos_udacity/S12.04-Solution-ResourceQualifiers2/app/build/intermediates/pre-dexed/debug/com.firebase-firebase-jobdispatcher-0.5.0_8eadb41cf7493b998cd35b8cc95773ad84b4266a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/emanuellemenali/Desktop/projetos_udacity/S12.04-Solution-ResourceQualifiers2/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="/Users/emanuellemenali/Desktop/projetos_udacity/S12.04-Solution-ResourceQualifiers2/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.1.0_da771d1df4e8e3b5f115c14ff744019bb765fedc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/emanuellemenali/Desktop/projetos_udacity/S12.04-Solution-ResourceQualifiers2/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="/Users/emanuellemenali/Desktop/projetos_udacity/S12.04-Solution-ResourceQualifiers2/wear/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-8.4.0_3198202ab5090e9192910cbb1c7c7c5c02f6b567.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/emanuellemenali/Desktop/projetos_udacity/S12.04-Solution-ResourceQualifiers2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
+        <dex dex="/Users/emanuellemenali/Desktop/projetos_udacity/S12.04-Solution-ResourceQualifiers2/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.1.0_6a1728053aab8393fe6060c6d95a402587efc065.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/emanuellemenali/Desktop/projetos_udacity/S12.04-Solution-ResourceQualifiers2/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/emanuellemenali/Desktop/projetos_udacity/S12.04-Solution-ResourceQualifiers2/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.1.0_40d478dbd2b9ec6523c095e7d736318f0c39b1a3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/emanuellemenali/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.0/support-annotations-25.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
+        <dex dex="/Users/emanuellemenali/Desktop/projetos_udacity/S12.04-Solution-ResourceQualifiers2/app/build/intermediates/pre-dexed/debug/support-annotations-25.1.0_f12753db4dc3a7b799dad6cb4070e54bdcd19233.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/emanuellemenali/Desktop/projetos_udacity/S12.04-Solution-ResourceQualifiers2/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e167a34eaca0b31704212f43f9576ea84e05046f">
+        <dex dex="/Users/emanuellemenali/Desktop/projetos_udacity/S12.04-Solution-ResourceQualifiers2/wear/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-wearable-8.4.0_f437357d7c3d57195d75d60c4f0696b85a6f0ec6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/emanuellemenali/Desktop/projetos_udacity/S12.04-Solution-ResourceQualifiers2/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="/Users/emanuellemenali/Desktop/projetos_udacity/S12.04-Solution-ResourceQualifiers2/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.1.0_065782ca2bf5988e6cf26693acd9107b5eb7be75.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/emanuellemenali/Desktop/projetos_udacity/S12.04-Solution-ResourceQualifiers2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="/Users/emanuellemenali/Desktop/projetos_udacity/S12.04-Solution-ResourceQualifiers2/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-8.4.0_c57701569d5d418077aca6bc010ba7e1320220c3.jar" />
+    </item>
+
+</items>
