@@ -55,10 +55,6 @@ import java.util.Date;
 import java.util.TimeZone;
 import java.util.concurrent.TimeUnit;
 
-/**
- * Digital watch face with seconds. In ambient mode, the seconds aren't displayed. On devices with
- * low-bit ambient mode, the text is drawn without anti-aliasing in ambient mode.
- */
 public class SunshineWatchFaceService extends CanvasWatchFaceService {
 
     private static final String WEATHER_PATH = "/update-weather";
@@ -68,15 +64,8 @@ public class SunshineWatchFaceService extends CanvasWatchFaceService {
     private static final Typeface NORMAL_TYPEFACE =
             Typeface.create(Typeface.SANS_SERIF, Typeface.NORMAL);
 
-    /**
-     * Update rate in milliseconds for interactive mode. We update once a second since seconds are
-     * displayed in interactive mode.
-     */
     private static final long INTERACTIVE_UPDATE_RATE_MS = TimeUnit.SECONDS.toMillis(1);
 
-    /**
-     * Handler message id for updating the time periodically in interactive mode.
-     */
     private static final int MSG_UPDATE_TIME = 0;
 
     @Override
@@ -111,11 +100,9 @@ public class SunshineWatchFaceService extends CanvasWatchFaceService {
             GoogleApiClient.OnConnectionFailedListener,
             DataApi.DataListener {
 
-        // handler to update the time once a second in interactive mode
         final Handler mUpdateTimeHandler = new EngineHandler(this);
 
         boolean mRegisteredTimeZoneReceiver = false;
-        boolean isRoundWatchface = false;
 
         Paint mBackgroundPaint;
 
@@ -128,7 +115,6 @@ public class SunshineWatchFaceService extends CanvasWatchFaceService {
         boolean mAmbient;
         Calendar mCalendar;
 
-        // receiver to update the time zone
         final BroadcastReceiver mTimeZoneReceiver = new BroadcastReceiver() {
             @Override
             public void onReceive(Context context, Intent intent) {
@@ -142,10 +128,6 @@ public class SunshineWatchFaceService extends CanvasWatchFaceService {
         long weatherID;
         Bitmap mWeatherIconBitmap;
 
-        /**
-         * Whether the display supports fewer bits for each color in ambient mode. When true, we
-         * disable anti-aliasing in ambient mode.
-         */
         boolean mLowBitAmbient;
         boolean mBurnInProtection;
 
@@ -161,31 +143,28 @@ public class SunshineWatchFaceService extends CanvasWatchFaceService {
                     .setShowSystemUiTime(false)
                     .build());
 
-            // Load the background image
             Resources resources = SunshineWatchFaceService.this.getResources();
 
-            // Initialize the background paint
             mBackgroundPaint = new Paint();
             mBackgroundPaint.setColor(ContextCompat.getColor(SunshineWatchFaceService.this,
                     R.color.primary));
 
-            // Initialize date text and time text paint for hour, colon, and minutes
             mDatePaint = createTextPaint(ContextCompat.getColor(SunshineWatchFaceService.this,
                     R.color.primary_text));
             mDatePaint.setTextSize(resources.getDimension(R.dimen.date_text_size));
+
             mTimePaint = createTextPaint(ContextCompat.getColor(SunshineWatchFaceService.this,
                     R.color.primary_text));
             mTimePaint.setTextSize(resources.getDimension(R.dimen.time_text_size));
 
-//             Initialize temperature text paint for max and min temps
             mMinTempPaint = createTextPaint(ContextCompat.getColor(SunshineWatchFaceService.this,
                     R.color.primary_text));
             mMinTempPaint.setTextSize(resources.getDimension(R.dimen.min_temp_text_size));
+
             mMaxTempPaint = createTextPaint(ContextCompat.getColor(SunshineWatchFaceService.this,
                     R.color.primary_text));
             mMaxTempPaint.setTextSize(resources.getDimension(R.dimen.max_temp_text_size));
 
-            // Allocate a Calendar to calculate local time using the UTC time and time zone
             mCalendar = Calendar.getInstance();
 
             mWeatherIconPaint = new Paint();
@@ -220,15 +199,12 @@ public class SunshineWatchFaceService extends CanvasWatchFaceService {
             if (visible) {
                 registerReceiver();
 
-                // Update time zone in case it changed while we weren't visible.
                 mCalendar.setTimeZone(TimeZone.getDefault());
                 invalidate();
             } else {
                 unregisterReceiver();
             }
 
-            // Whether the timer should be running depends on whether we're visible (as well as
-            // whether we're in ambient mode), so we may need to start or stop the timer.
             updateTimer();
         }
 
@@ -289,17 +265,12 @@ public class SunshineWatchFaceService extends CanvasWatchFaceService {
         @Override
         public void onDraw(Canvas canvas, Rect bounds) {
 
-
-            // Draw the background.
             if (isInAmbientMode()) {
                 canvas.drawColor(Color.BLACK);
             } else {
                 canvas.drawRect(0, 0, bounds.width(), bounds.height(), mBackgroundPaint);
             }
 
-
-
-            // Draw HH:MM in ambient mode or H:MM:SS in interactive mode.
             long now = System.currentTimeMillis();
             mCalendar.setTimeInMillis(now);
 
@@ -308,9 +279,6 @@ public class SunshineWatchFaceService extends CanvasWatchFaceService {
             float centerYOfWatchface = bounds.centerY();
             float startLine = bounds.left;
             float endLine = bounds.right;
-
-
-
 
             String timeText = mAmbient ?
                     String.format("%02d:%02d",
@@ -330,7 +298,7 @@ public class SunshineWatchFaceService extends CanvasWatchFaceService {
             canvas.drawLine(startLine, centerYOfWatchface + 20, endLine, centerYOfWatchface + 20, mLine);
             // Display date only if not in ambient mode
             if (!mAmbient) {
-                SimpleDateFormat dateFormat = new SimpleDateFormat("EEE, MMM d");
+                SimpleDateFormat dateFormat = new SimpleDateFormat("EEE, d MMM");
                 String dateText = dateFormat.format(new Date(now));
                 float dateTextWidth = mDatePaint.measureText(dateText);
                 canvas.drawText(dateText, centerXOfWatchface - dateTextWidth / 2,
@@ -339,11 +307,6 @@ public class SunshineWatchFaceService extends CanvasWatchFaceService {
             }
 
             if (!mAmbient) {//where the max and min temperature are displaying
-                canvas.drawText(maxTempText, centerXOfWatchface - margin,
-                        40 + centerYOfWatchface + margin, mMaxTempPaint);
-                canvas.drawText(minTempText, centerXOfWatchface + margin,
-                        40 + centerYOfWatchface + margin, mMinTempPaint);
-            } else {
                 canvas.drawText(maxTempText, centerXOfWatchface - margin,
                         40 + centerYOfWatchface + margin, mMaxTempPaint);
                 canvas.drawText(minTempText, centerXOfWatchface + margin,
@@ -358,10 +321,6 @@ public class SunshineWatchFaceService extends CanvasWatchFaceService {
 
         }
 
-        /**
-         * Starts the {@link #mUpdateTimeHandler} timer if it should be running and isn't currently
-         * or stops it if it shouldn't be running but currently is.
-         */
         private void updateTimer() {
             mUpdateTimeHandler.removeMessages(MSG_UPDATE_TIME);
             if (shouldTimerBeRunning()) {
@@ -369,17 +328,10 @@ public class SunshineWatchFaceService extends CanvasWatchFaceService {
             }
         }
 
-        /**
-         * Returns whether the {@link #mUpdateTimeHandler} timer should be running. The timer should
-         * only run when we're visible and in interactive mode.
-         */
         private boolean shouldTimerBeRunning() {
             return isVisible() && !isInAmbientMode();
         }
 
-        /**
-         * Handle updating the time periodically in interactive mode.
-         */
         private void handleUpdateTimeMessage() {
             invalidate();
             if (shouldTimerBeRunning()) {
@@ -423,7 +375,6 @@ public class SunshineWatchFaceService extends CanvasWatchFaceService {
             getBitmapFromDrawable(weatherID);
         }
 
-
         private void getBitmapFromDrawable(long weatherID) {
             mWeatherIconBitmap = BitmapFactory.decodeResource(getResources(),
                     getWeatherIconForWeatherCondition(weatherID));
@@ -433,9 +384,6 @@ public class SunshineWatchFaceService extends CanvasWatchFaceService {
 
         private int getWeatherIconForWeatherCondition(long weatherId) {
 
-        /*
-         * Based on weather code data for Open Weather Map.
-         */
             if (weatherId >= 200 && weatherId <= 232) {
                 return R.drawable.ic_storm;
             } else if (weatherId >= 300 && weatherId <= 321) {

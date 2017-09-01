@@ -65,7 +65,6 @@ public class WatchfaceSyncService implements
 
         Uri weatherUri = WeatherContract.WeatherEntry.CONTENT_URI;
 
-        // we'll query our contentProvider, as always
         Cursor cursor = mContext.getContentResolver()
                 .query(weatherUri, WEATHER_PROJECTION, null, null, null);
 

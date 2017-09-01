@@ -159,7 +159,7 @@ public class MainActivity extends AppCompatActivity implements
     @Override
     protected void onStart() {
         super.onStart();
-        WatchfaceSyncService.getInstance(this).updateWatchface();
+//        WatchfaceSyncService.getInstance(this).updateWatchface();
     }
 
     /**

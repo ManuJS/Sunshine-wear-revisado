@@ -22,6 +22,7 @@ import android.net.Uri;
 import android.support.annotation.NonNull;
 
 import com.example.android.sunshine.app.data.WeatherContract;
+import com.example.android.sunshine.app.watchface_sync.WatchfaceSyncService;
 import com.firebase.jobdispatcher.Constraint;
 import com.firebase.jobdispatcher.Driver;
 import com.firebase.jobdispatcher.FirebaseJobDispatcher;
@@ -107,6 +108,7 @@ public class SunshineSyncUtils {
      *                ContentResolver
      */
     synchronized public static void initialize(@NonNull final Context context) {
+        WatchfaceSyncService.getInstance(context).updateWatchface();
 
         /*
          * Only perform initialization once per app lifetime. If initialization has already been
